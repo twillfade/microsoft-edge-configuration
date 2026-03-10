@@ -1,0 +1,5 @@
+# Set default behaviour to automatically normalize line endings.
+* text=auto
+
+# Force Windows registry files to use Windows line endings
+*.{reg,[rR][eE][gG]} text eol=crlf
