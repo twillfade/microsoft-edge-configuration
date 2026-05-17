@@ -25,7 +25,9 @@ Check applied policies from within edge under `edge://policy`.
 ### Flags
 
 Set flags in the browser under `edge://flags`:
-- None so far
+- `Allow WebRTC to adjust the input volume` (`edge://flags/#enable-webrtc-allow-input-volume-adjustment`): `Disabled`
+
+  Stops WebRTC from messing with the microphone volume set in Windows sound settings.
 
 ### Additional
 
